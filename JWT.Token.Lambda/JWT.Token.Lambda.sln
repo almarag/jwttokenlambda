@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JWT.Token.Lambda", "JWT.Token.Lambda\JWT.Token.Lambda.csproj", "{FE060C87-E7CF-40FB-9F95-87A0FB3473DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JWT.Token.Lambda.Tests", "JWT.Token.Lambda.Tests\JWT.Token.Lambda.Tests.csproj", "{8E2AF866-0102-4802-BDB0-290A6C58B525}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE060C87-E7CF-40FB-9F95-87A0FB3473DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE060C87-E7CF-40FB-9F95-87A0FB3473DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE060C87-E7CF-40FB-9F95-87A0FB3473DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE060C87-E7CF-40FB-9F95-87A0FB3473DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E2AF866-0102-4802-BDB0-290A6C58B525}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E2AF866-0102-4802-BDB0-290A6C58B525}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E2AF866-0102-4802-BDB0-290A6C58B525}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E2AF866-0102-4802-BDB0-290A6C58B525}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {054EBA02-9378-465F-A987-54A218B0AC33}
+	EndGlobalSection
+EndGlobal
