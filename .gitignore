@@ -1,0 +1,7 @@
+/JWT.Token.Lambda/.aws-sam
+/JWT.Token.Lambda/.vs
+/JWT.Token.Lambda/template.yaml
+/JWT.Token.Lambda/testRequest.json
+/JWT.Token.Lambda/JWT.Token.Lambda/obj
+/JWT.Token.Lambda/JWT.Token.Lambda/bin
+/JWT.Token.Lambda/JWT.Token.Lambda/aws-lambda-tools-defaults.json
