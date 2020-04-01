@@ -1,0 +1,27 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: Sample SAM Template for JWT.Token.Lambda
+Globals:
+  Function:
+    Timeout: 10
+Resources:
+  JWTTokenLambdaFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: JWTTokenLambda
+      CodeUri: JWTTokenLambdaFunction
+      Handler: JWT.Token.Lambda::JWT.Token.Lambda.Function::FunctionHandler
+      Runtime: dotnetcore2.1
+Outputs:
+  JWTTokenLambdaFunction:
+    Description: JWTTokenLambda Lambda Function ARN
+    Value:
+      Fn::GetAtt:
+      - JWTTokenLambdaFunction
+      - Arn
+  JWTTokenLambdaFunctionIamRole:
+    Description: Implicit IAM Role created for JWTTokenLambda function
+    Value:
+      Fn::GetAtt:
+      - JWTTokenLambdaFunctionRole
+      - Arn
